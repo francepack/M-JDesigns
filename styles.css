@@ -17,12 +17,36 @@ header button {
 
 }
 
-.single-chart {
+.both-charts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle-graph {
   width: 50%;
 }
 
 .single-chart text {
-  font-size: 12px;
+  font-size: 2px;
+}
+
+.circle {
+fill: red;
+}
+
+.circle-background {
+ fill: blue;
+}
+
+.line-graph-area {
+  margin-left: 20px; 
+  width: 50%;
+}
+
+.line-graph {
+  height: 300px;
+  width: 300px;
 }
 
 .responsiveCal {
