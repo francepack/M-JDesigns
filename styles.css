@@ -1,20 +1,48 @@
+body {
+  background-color: #BFC0C0;
+  font-family: 'Lato', sans-serif
+}
+
 header {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 20px 20px;
+  padding: 20px 20px;
+  font-family: 'Rock Salt', cursive;
+  background-color: #254B75
+}
+
+h1 {
+  color: #FFF;
+  font-size: 3rem
+}
+
+button {
+  border-radius: 1rem;
+  background-color: #97DFFC;
+  text-align: center;
+  padding: .5rem
 }
 
 header button {
   height: 30px;
-
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
 }
 
 .user-img {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+}
 
+input {
+  border-radius: 1rem;
+  border-style: none;
+  padding: .4rem
 }
 
 .single-chart {
