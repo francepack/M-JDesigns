@@ -1,0 +1,41 @@
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+header button {
+  height: 30px;
+
+}
+
+.user-img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+
+}
+
+.single-chart {
+  width: 50%;
+}
+
+.single-chart text {
+  font-size: 12px;
+}
+
+.responsiveCal {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0; 
+  overflow: hidden;
+}
+   
+.responsiveCal iframe {
+  position: absolute; 
+  top: 0; 
+  left: 10%; 
+  width: 80%; 
+  height: 100%; 
+}
