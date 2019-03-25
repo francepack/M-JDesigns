@@ -49,29 +49,47 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-flow: row nowrap;
 }
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around;
+}
+
+.circular-chart {
+  display: block;
+  margin: 30px auto;
+  max-width: 90%;
+  max-height: 200px;
+}  
 
 .today h2 {
   text-align: center;
 }
 
-.circle-graph {
-  width: 50%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.single-chart text {
-  font-size: 2px;
+.circle-background {
+  fill: none;
+  stroke: #97DFFC;
+  stroke-width: 3.8;
 }
 
 .circle {
-fill: red;
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+  stroke: #254B75;
 }
 
-.circle-background {
- fill: blue;
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circle-label{
+  text-align: center
 }
 
 .line-graph-area {
