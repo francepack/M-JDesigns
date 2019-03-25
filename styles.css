@@ -51,8 +51,15 @@ input {
   align-items: center;
 }
 
+.today h2 {
+  text-align: center;
+}
+
 .circle-graph {
   width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .single-chart text {
@@ -77,6 +84,30 @@ fill: red;
   width: 300px;
 }
 
+.timer {
+ text-align: center;
+}
+
+.timer-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30px;
+}
+
+.timer-btn button {
+  width: 100px;
+}
+
+.add-workout {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30px;
+}
+
+.calenderr h2 {
+  text-align: center;
+}
+
 .responsiveCal {
   position: relative;
   padding-bottom: 75%;
@@ -90,4 +121,27 @@ fill: red;
   left: 10%; 
   width: 80%; 
   height: 100%; 
+}
+
+.history {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+}
+
+.history th {
+  border-top: 3px solid black;
+  border-bottom: 6px solid black;
+  width: 200px;
+}
+
+.history td {
+  border-top: 3px solid black;
+  border-bottom: 6px solid black;
+  width: 200px;
+
 }
