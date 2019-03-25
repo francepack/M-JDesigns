@@ -62,6 +62,10 @@ input {
   margin: 30px auto;
   max-width: 90%;
   max-height: 200px;
+}  
+
+.today h2 {
+  text-align: center;
 }
 
 .circle-background {
@@ -98,6 +102,30 @@ input {
   width: 300px;
 }
 
+.timer {
+ text-align: center;
+}
+
+.timer-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30px;
+}
+
+.timer-btn button {
+  width: 100px;
+}
+
+.add-workout {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30px;
+}
+
+.calenderr h2 {
+  text-align: center;
+}
+
 .responsiveCal {
   position: relative;
   padding-bottom: 75%;
@@ -111,4 +139,27 @@ input {
   left: 10%; 
   width: 80%; 
   height: 100%; 
+}
+
+.history {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+}
+
+.history th {
+  border-top: 3px solid black;
+  border-bottom: 6px solid black;
+  width: 200px;
+}
+
+.history td {
+  border-top: 3px solid black;
+  border-bottom: 6px solid black;
+  width: 200px;
+
 }
