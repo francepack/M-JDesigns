@@ -102,8 +102,12 @@ input {
   width: 300px;
 }
 
-.timer {
+.workout-zone {
  text-align: center;
+}
+
+.timer {
+  width: 48%;
 }
 
 .timer-btn {
@@ -116,10 +120,15 @@ input {
   width: 100px;
 }
 
+.workouts {
+  display: flex;
+}
+
 .add-workout {
   display: flex;
   justify-content: space-around;
   margin: 0 30px;
+  width: 48%;
 }
 
 .calenderr h2 {
